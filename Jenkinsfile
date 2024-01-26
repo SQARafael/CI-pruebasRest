@@ -19,7 +19,6 @@ pipeline {
           script {
 
            bat "cd CI-REST"
-
            bat "${GRADLE_HOME}\\gradle build"
 
         }
